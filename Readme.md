@@ -125,7 +125,11 @@ Real-Time-IOT-Based-Face-Recognition-and-Authentication-System/
 ```bash
 ssh rasp4b@raspberrypi.local
 ```
+* ssh: Command to start the SSH (Secure Shell) session.
 
+* rasp4b: Username you’ve configured for your Raspberry Pi.
+
+* raspberrypi.local: Hostname of the Raspberry Pi on the local network. Ensure the hostname is set in Raspberry Pi settings.
 ---
 
 ## 🚀 How to Run
