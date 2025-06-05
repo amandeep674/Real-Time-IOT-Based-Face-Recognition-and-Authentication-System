@@ -142,6 +142,10 @@ python3 LOCK_UNLOCK.py
 
 ---
 
+## System Architecture
+(images/System Architecture.jpg)
+
+
 ## 🖼️ Output & Demo
 
 * 🎥 **Live Video Window**: With real-time face detection and names.
