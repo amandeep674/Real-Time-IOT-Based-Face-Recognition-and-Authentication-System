@@ -143,7 +143,7 @@ python3 LOCK_UNLOCK.py
 ---
 
 ## System Architecture
-(images/System Architecture.jpg)
+! (images/System Architecture.jpg)
 
 
 ## 🖼️ Output & Demo
