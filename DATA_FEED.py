@@ -7,7 +7,7 @@ from Adafruit_IO import Client, Feed, RequestError  # Import Adafruit IO library
 # ---------------------------------------------
 # Adafruit IO credentials and client initialization
 # ---------------------------------------------
-ADAFRUIT_IO_KEY = 'xxxxxxxxxxxxxxxxxxxxx'  # Adafruit IO Key (should be stored in .env for security)
+ADAFRUIT_IO_KEY = 'xxxxxxxxxxxxxxxxxxxxx'  # Adafruit IO Key 
 ADAFRUIT_IO_USERNAME = 'your_username'                      # Adafruit IO Username
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)   # Initialize Adafruit IO client
 
