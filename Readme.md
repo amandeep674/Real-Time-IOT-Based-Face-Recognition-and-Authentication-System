@@ -142,8 +142,12 @@ python3 LOCK_UNLOCK.py
 
 ---
 
-## System Architecture
-! (images/System Architecture.jpg)
+## 🧱 System Architecture
+
+![System Architecture](images/System_Architecture.jpg)
+
+This diagram illustrates how the client (Raspberry Pi with PiCamera) communicates with the server via sockets. The server performs face recognition, controls LEDs and servo motors. Based on recognition, the system either grants or denies access, with email alerts for unknown individuals.
+
 
 
 ## 🖼️ Output & Demo
