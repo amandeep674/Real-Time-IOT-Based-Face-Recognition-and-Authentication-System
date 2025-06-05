@@ -116,6 +116,15 @@ Real-Time-IOT-Based-Face-Recognition-and-Authentication-System/
 * Use 120 ohm resistors in series with each LED.
 * Connect all components via a breadboard using jumper wires.
 
+### Step 5: SSH Remote Access to Raspberry Pi
+
+* Connect your computer and Raspberry Pi to the same Wi-Fi network.
+
+* Use SSH to remotely access the Raspberry Pi terminal:
+
+```bash
+ssh rasp4b@raspberrypi.local
+
 ---
 
 ## 🚀 How to Run
