@@ -17,7 +17,9 @@ This project is a **Real-Time IoT-based Face Recognition and Authentication Syst
 
 ## 📦 Requirements
 
-Install the following Python libraries:
+### 🐍 Python Libraries to Install
+
+Install the following Python libraries using `pip`:
 
 ```bash
 pip install opencv-python face_recognition numpy adafruit-io Pillow
@@ -30,10 +32,40 @@ sudo apt install python3-opencv
 sudo pip3 install RPi.GPIO picamera2
 ```
 
+### 🧰 Library Breakdown
+
+* `opencv-python`: For image/video processing and display.
+* `face_recognition`: For detecting and recognizing faces using dlib.
+* `numpy`: Required for matrix operations and image buffers.
+* `adafruit-io`: To send and receive data from Adafruit IO.
+* `Pillow`: For converting frames to image format (used with `BytesIO`).
+* `RPi.GPIO`: Used for controlling Raspberry Pi GPIO pins (LEDs, Servo).
+* `picamera2`: Library for interfacing with the Pi Camera.
+* `smtplib` & `email.message`: For sending email alerts.
+* `socket`: Enables communication between client (camera) and server (face recognition). Used for real-time frame transfer.
+
 Also, enable the following on Raspberry Pi:
 
 * Camera Interface
 * I2C / GPIO (for servo + LEDs)
+
+### 🔧 Hardware Requirements
+
+* Raspberry Pi 4B
+* Pi Camera Module
+* Servo Motor
+* Green LED
+* Red LED
+* 6 Jumper Wires
+* 2 Resistors (120 ohm)
+* Breadboard
+
+**Hardware Setup Notes:**
+
+* Connect Servo Motor to GPIO pin 18
+* Connect Green LED to GPIO 26 (with 120 ohm resistor)
+* Connect Red LED to GPIO 19 (with 120 ohm resistor)
+* Use the breadboard and jumper wires for interconnection
 
 ---
 
@@ -81,6 +113,8 @@ Real-Time-IOT-Based-Face-Recognition-and-Authentication-System/
 
   * Green LED to GPIO 26
   * Red LED to GPIO 19
+* Use 120 ohm resistors in series with each LED.
+* Connect all components via a breadboard using jumper wires.
 
 ---
 
@@ -113,7 +147,7 @@ python3 LOCK_UNLOCK.py
 * 🎥 **Live Video Window**: With real-time face detection and names.
 * 🔐 **Servo Unlocks**: When a known face is detected.
 * ❌ **Email Alerts + Image Upload**: If an unknown face is detected.
-* 📡 **Adafruit IO Dashboard**: Visual feed of known and unknown face snapshots.
+* 🛁 **Adafruit IO Dashboard**: Visual feed of known and unknown face snapshots.
 
 ---
 
@@ -132,4 +166,3 @@ python3 LOCK_UNLOCK.py
 * Adjust face recognition `tolerance` in `MAIN.py` for more strict/relaxed matching.
 * Proper lighting improves face detection accuracy.
 
----
