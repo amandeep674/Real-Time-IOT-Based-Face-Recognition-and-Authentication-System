@@ -152,10 +152,10 @@ python3 LOCK_UNLOCK.py
 ---
 ### Visual Indicators
 
-- ✅ **Green LED ON** (Access Granted):
+- ✅ **Green LED ON and Servo Motor rotates at Angle 90°** (Access Granted):
   ![Green LED ON](images/green.jpg)
 
-- ❌ **Red LED ON** (Access Denied):
+- ❌ **Red LED ON and Servo Motor remains at Base Angle 0°** (Access Denied):
   ![Red LED ON](images/red.jpg)
 
   ---
