@@ -124,6 +124,7 @@ Real-Time-IOT-Based-Face-Recognition-and-Authentication-System/
 
 ```bash
 ssh rasp4b@raspberrypi.local
+```
 
 ---
 
