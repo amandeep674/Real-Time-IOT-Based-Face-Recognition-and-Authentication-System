@@ -150,6 +150,15 @@ python3 LOCK_UNLOCK.py
 * 🛁 **Adafruit IO Dashboard**: Visual feed of known and unknown face snapshots.
 
 ---
+### Visual Indicators
+
+- ✅ **Green LED ON** (Access Granted):
+  ![Green LED ON](images/green.jpg)
+
+- ❌ **Red LED ON** (Access Denied):
+  ![Red LED ON](images/red.jpg)
+
+  ---
 
 ## ✅ Use Cases
 
